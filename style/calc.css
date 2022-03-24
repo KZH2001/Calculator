@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+    }
+
+      body{
+     background: url(../images/calcu.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+
+    }
+
+    .calculator{
+        width: 300px;
+        height: 480px;
+        margin:50px 480px;
+        border-radius:15px;
+
+        box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+        background-color: rgb(180,217,243,0.9);
+        position: absolute;
+
+    
+        
+    }
+
+    .display-box{
+        width: 260px;
+        position: relative;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 20px;
+        height: 60px;
+        box-shadow: inset 2px 2px 7px -3px rgba(0,0,0,0.8);  
+        padding: 15px 15px;
+        text-align: right;
+        font-size: 25px;
+        font-weight: 600;
+        border: 1px solid rgba(255, 254, 254, 0.6);
+        
+        overflow: hidden;
+        text-overflow:inherit; 
+        color: rgba(10, 55, 52, 0.598);
+
+
+    
+    }
+    .keypad{
+        margin:30px auto;
+        display: flex;
+        justify-content: center;
+    
+    
+    }
+    
+    .key{
+        width: 45px;
+        height: 45px;
+        box-shadow: 0px 2px 6px 1px rgba(94, 94, 94, 0.2);
+       
+        text-align: center;
+        line-height: 45px;
+        margin: 8px;
+         background-color: rgb(255, 254, 253,0.5);
+        border-radius: 50%;
+        user-select: none;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+      
+        cursor: pointer;
+        color: rgba(50, 58, 58, 0.927);
+    
+    }
+    .key:active{
+        background-color: rgb(209, 218, 216);
+
+    }
+    .key1{
+            width: 110px;
+            height: 40px;
+            box-shadow: 0px 2px 6px 1px rgba(94, 94, 94, 0.2);
+            text-align: center;
+            line-height: 40px;
+            margin: 8px;
+            background-color: rgb(255, 254, 253,0.4);
+            border-radius: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            cursor: pointer;
+            user-select: none;
+       
+    }
+
+    .key1:active{
+        background-color: rgb(209, 218, 216);
+    
+    }
+
+    .key2{
+        width: 45px;
+        height: 45px;
+        box-shadow: 0px 2px 6px 1px rgba(94, 94, 94, 0.2);
+        text-align: center;
+        line-height: 45px;
+        margin: 8px;
+         background-color: rgb(255, 254, 253,0.5);
+        border-radius: 50%;
+        user-select: none;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        
+    
+    }
+    .key2:active{
+        background-color: rgb(209, 218, 216);
+        
+    }
+    
+    

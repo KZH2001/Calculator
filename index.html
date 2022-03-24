@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/title-logo.png">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style/calc.css">
+</head>
+<body>
+    <style>
+        
+    </style>
+    <div class="calculator">
+        <div class="display-box">
+            
+        </div>
+            <div class="keypad">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="key" onclick="clearAll()">Cl</div>
+                        </td>
+
+                        <td>
+                            <div class="key" onclick="clearLast()">DEL</div>
+                        </td>
+
+                        <td>
+                        <div class="key" onclick="showInDisplay('%')">%</div>
+                    </td>
+
+                        <td>
+                            <div class="key" onclick="showInDisplay('/')">&#247</div>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                          <td>
+                                <div class="key" onclick="showInDisplay(7)">7</div>
+                            </td>
+
+                            <td>
+                                <div class="key"onclick="showInDisplay(8)">8</div>
+                            </td>
+
+                            <td>
+                            <div class="key"onclick="showInDisplay(9)">9</div>
+                        </td>
+                    
+                            <td>
+                                <div class="key"onclick="showInDisplay('*')">x</div>
+                            </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="key" onclick="showInDisplay(4)">4</div>
+                        </td>
+
+                        <td>
+                            <div class="key" onclick="showInDisplay(5)">5</div>
+                        </td>
+
+                        <td>
+                        <div class="key" onclick="showInDisplay(6)">6</div>
+                    </td>
+                
+                        <td>
+                            <div class="key2"onclick="showInDisplay('-')">-</div>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <div class="key" onclick="showInDisplay(1)">1</div>
+                        </td>
+
+                        <td>
+                            <div class="key" onclick="showInDisplay(2)">2</div>
+                        </td>
+
+                        <td>
+                        <div class="key" onclick="showInDisplay(3)">3</div>
+                    </td>
+                
+                        <td>
+                            <div class="key" onclick="showInDisplay('+')">+</div>
+                        </td>
+
+                    </tr>
+
+                    <td>
+                        <div class="key"onclick="showInDisplay(0)">0</div>
+                    </td>
+
+                    <td>
+                        <div class="key2" onclick="showInDisplay('.')">&#8729;</div>
+                    </td>
+
+                    <td colspan="2">
+                    <div class="key1" onclick="calc()">&#61;</div>
+                </td>
+                
+                   
+                </table>
+            </div>
+        
+    </div>
+    <script src="js/calc.js"></script>
+</body>
+</html>
